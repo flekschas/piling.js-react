@@ -26,7 +26,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build; gh-pages -d build -t --git git"
+    "deploy": "npm run build; touch build/.nojekyll; gh-pages -d build -t --git git"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -45,5 +45,6 @@
   },
   "devDependencies": {
     "gh-pages": "^3.1.0"
-  }
+  },
+  "homepage": "https://flekschas.github.io/piling.js-react"
 }
