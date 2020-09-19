@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "839b9587b233b4f3bd0ffca6f2b84404",
+    "revision": "59abf8bbfcd3d383e1f06101dbb22d01",
     "url": "/piling.js-react/index.html"
   },
   {
-    "revision": "191ab33110051245d5bd",
+    "revision": "ed63ed949f55e5d6f9ce",
     "url": "/piling.js-react/static/css/main.187b826e.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/piling.js-react/static/js/2.e3bf7f8f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "191ab33110051245d5bd",
-    "url": "/piling.js-react/static/js/main.62e107ca.chunk.js"
+    "revision": "ed63ed949f55e5d6f9ce",
+    "url": "/piling.js-react/static/js/main.9ad175a7.chunk.js"
   },
   {
     "revision": "931965fc4df9afb7ccdf",

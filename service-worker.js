@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/piling.js-react/precache-manifest.192430ea6ef031e99fb42a480a2c8c37.js"
+  "/piling.js-react/precache-manifest.06f65efd102da10557262d6f08f1e38c.js"
 );
 
 self.addEventListener('message', (event) => {
