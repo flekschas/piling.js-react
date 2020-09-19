@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/piling.js-react/static/css/main.187b826e.chunk.css",
-    "main.js": "/piling.js-react/static/js/main.9ad175a7.chunk.js",
-    "main.js.map": "/piling.js-react/static/js/main.9ad175a7.chunk.js.map",
+    "main.js": "/piling.js-react/static/js/main.8ee79b13.chunk.js",
+    "main.js.map": "/piling.js-react/static/js/main.8ee79b13.chunk.js.map",
     "runtime-main.js": "/piling.js-react/static/js/runtime-main.c28153e5.js",
     "runtime-main.js.map": "/piling.js-react/static/js/runtime-main.c28153e5.js.map",
     "static/js/2.e3bf7f8f.chunk.js": "/piling.js-react/static/js/2.e3bf7f8f.chunk.js",
     "static/js/2.e3bf7f8f.chunk.js.map": "/piling.js-react/static/js/2.e3bf7f8f.chunk.js.map",
     "index.html": "/piling.js-react/index.html",
-    "precache-manifest.06f65efd102da10557262d6f08f1e38c.js": "/piling.js-react/precache-manifest.06f65efd102da10557262d6f08f1e38c.js",
+    "precache-manifest.31d7507fb79215228d73ef38f4f2f471.js": "/piling.js-react/precache-manifest.31d7507fb79215228d73ef38f4f2f471.js",
     "service-worker.js": "/piling.js-react/service-worker.js",
     "static/css/main.187b826e.chunk.css.map": "/piling.js-react/static/css/main.187b826e.chunk.css.map",
     "static/js/2.e3bf7f8f.chunk.js.LICENSE.txt": "/piling.js-react/static/js/2.e3bf7f8f.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c28153e5.js",
     "static/js/2.e3bf7f8f.chunk.js",
     "static/css/main.187b826e.chunk.css",
-    "static/js/main.9ad175a7.chunk.js"
+    "static/js/main.8ee79b13.chunk.js"
   ]
 }
