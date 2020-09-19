@@ -33,8 +33,8 @@ In `piling-interface.js` you would then implement your piling interface and expo
 ```javascript
 import createPilingJs, { createImageRenderer } from 'piling.js';
 
-const create = async (element) =>
-  createPilingJs(element, {
+export default async function create(element) {
+  return createPilingJs(element, {
     renderer: createImageRenderer(),
     items: [
       { src: 'https://storage.googleapis.com/pilingjs/coco-cars/000000253413.jpg' },
@@ -42,8 +42,7 @@ const create = async (element) =>
       { src: 'https://storage.googleapis.com/pilingjs/coco-cars/000000314530.jpg' }
     ]
   });
-
-export default create;
+}
 ```
 
 Details on how to configure the piling interface you can find at https://piling.js.org/docs
