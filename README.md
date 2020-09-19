@@ -4,6 +4,8 @@ This template demonstrates how [piling.js](https://github.com/flekschas/piling.j
 
 To keep things simple, the React app was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+**Live Demo:** https://flekschas.github.io/piling.js-react/
+
 ## How To
 
 It's very simple to use Piling.js within a React App. In your React component that should host Piling.js, create a DOM element and subscribe to its reference as follows:
