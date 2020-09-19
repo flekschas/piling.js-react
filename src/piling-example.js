@@ -15,7 +15,8 @@ const create = async (element) =>
       { src: 'https://storage.googleapis.com/pilingjs/coco-cars/000000392493.jpg' },
       { src: 'https://storage.googleapis.com/pilingjs/coco-cars/000000115639.jpg' },
       { src: 'https://storage.googleapis.com/pilingjs/coco-cars/000000228398.jpg' },
-    ]
+    ],
+    darkMode: true,
   });
 
 export default create;
