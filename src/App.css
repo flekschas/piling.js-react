@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 2rem;
+  pointer-events: none;
+}
+
+.App-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.App-link {
+  color: white;
+  text-decoration: none;
+  box-shadow: inset 0 -2px 0 0 #808080;
+  transition: 0.2s all ease;
+}
+
+.App-link:hover {
+  color: #ff7ff6;
+  box-shadow: inset 0 -10px 0 0 #ff7ff6;
+}
+
+.App-piling-wrapper {
+  position: absolute;
+  top: 6rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-top: 1px solid #808080;
+}
