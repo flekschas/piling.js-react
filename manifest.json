@@ -1,0 +1,15 @@
+{
+  "short_name": "Piling.js React App",
+  "name": "Template for using piling.js in a React app",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#000000"
+}

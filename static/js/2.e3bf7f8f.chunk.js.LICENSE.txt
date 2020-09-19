@@ -1,0 +1,225 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+ * @pixi/app - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/app is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/core - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/core is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/display - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/display is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/extract - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/extract is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/filter-displacement - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/filter-displacement is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/interaction - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/interaction is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/loaders - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/loaders is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/math - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/math is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/mesh - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/mesh is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/mixin-get-child-by-name - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/mixin-get-child-by-name is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/mixin-get-global-position - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/mixin-get-global-position is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/particles - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/particles is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/polyfill - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/polyfill is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/prepare - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/prepare is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/runner - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/runner is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/settings - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/settings is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/sprite - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/sprite is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/sprite-tiling - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/sprite-tiling is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/ticker - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/ticker is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * @pixi/utils - v5.1.6
+ * Compiled Thu, 13 Feb 2020 04:58:13 UTC
+ *
+ * @pixi/utils is licensed under the MIT License.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * resource-loader - v3.0.1
+ * https://github.com/pixijs/pixi-sound
+ * Compiled Tue, 02 Jul 2019 14:06:18 UTC
+ *
+ * resource-loader is licensed under the MIT license.
+ * http://www.opensource.org/licenses/mit-license
+ */
+
+/*! https://mths.be/punycode v1.4.1 by @mathias */
+
+/**
+ * Checks if an event is supported in the current execution environment.
+ *
+ * NOTE: This will not work correctly for non-generic events such as `change`,
+ * `reset`, `load`, `error`, and `select`.
+ *
+ * Borrows from Modernizr.
+ *
+ * @param {string} eventNameSuffix Event name, e.g. "click".
+ * @param {?boolean} capture Check if the capture phase is supported.
+ * @return {boolean} True if the event is supported.
+ * @internal
+ * @license Modernizr 3.0.0pre (Custom Build) | MIT
+ */
+
+/** @license React v0.19.1
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v16.13.1
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
