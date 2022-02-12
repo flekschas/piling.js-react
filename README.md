@@ -15,8 +15,10 @@ import createPilingInterface from './piling-interface.js';
 
 export default function Component() {
   const pilingInitHandler = useCallback((element) => {
-    const piling = createPilingExample(element);
-    return () => piling.destroy(); // Free resources
+    if (element!==null){
+      const piling = createPilingExample(element);
+      return () => piling.destroy(); // Free resources
+    }
   }, []);
 
   return (
