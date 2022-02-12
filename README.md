@@ -17,7 +17,7 @@ import './piling-wrapper.css';
 export default function Component() {
   const pilingInitHandler = useCallback((element) => {
     if (element!==null){
-      const piling = createPilingExample(element);
+      const piling = createPilingInterface(element);
       return () => piling.destroy(); // Free resources
     }
   }, []);
