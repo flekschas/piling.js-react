@@ -15,9 +15,9 @@ import createPilingInterface from './piling-interface.js';
 import './piling-wrapper.css';
 
 export default function Component() {
-  const pilingInitHandler = useCallback((element) => {
+  const pilingInitHandler = useCallback(async (element) => {
     if (!element) return;
-    const piling = createPilingInterface(element);
+    const piling = await createPilingInterface(element);
     return () => piling.destroy(); // Free resources
   }, []);
 
@@ -37,10 +37,10 @@ In `piling-wrapper.css` you specify the style of the piling-wrapper component
 In `piling-interface.js` you would then implement your piling interface and export a function that initializes the interface using the reference to the dom element.
 
 ```javascript
-import createPilingJs, { createImageRenderer } from 'piling.js';
+import createPilingJs, { createLibraryAsync, createImageRenderer } from 'piling.js';
 
 export default async function create(element) {
-  return createPilingJs(element, {
+  return createLibraryAsync(element, {
     renderer: createImageRenderer(),
     items: [
       { src: 'https://storage.googleapis.com/pilingjs/coco-cars/000000253413.jpg' },
