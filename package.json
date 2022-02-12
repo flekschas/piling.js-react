@@ -1,7 +1,7 @@
 {
   "name": "piling.js-react",
   "version": "0.1.0",
-  "description": "Template for using piling.js in a React app",
+  "description": "Template for using Piling.js in a React app",
   "keywords": [
     "piling.js",
     "react"
@@ -16,13 +16,13 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "piling.js": "^0.7.9",
+    "piling.js": "^0.10.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "PORT=8080 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

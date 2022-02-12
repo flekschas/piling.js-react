@@ -1,7 +1,7 @@
-import createPilingJs, { createImageRenderer } from 'piling.js';
+import { createLibraryAsync, createImageRenderer } from 'piling.js';
 
-const create = async (element) =>
-  createPilingJs(element, {
+const create = (element) =>
+  createLibraryAsync(element, {
     renderer: createImageRenderer(),
     // prettier-ignore
     items: [

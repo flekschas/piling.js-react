@@ -4,9 +4,10 @@ import './App.css';
 import createPilingExample from './piling-example.js';
 
 export default function App() {
-  const pilingInitHandler = useCallback((element) => {
+  const pilingInitHandler = useCallback(async (element) => {
     if (!element) return;
-    const piling = createPilingExample(element);
+    const piling = await createPilingExample(element);
+    console.info(`Piling.js v${piling.version}`);
     return () => piling.destroy();
   }, []);
 
