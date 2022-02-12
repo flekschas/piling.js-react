@@ -16,24 +16,18 @@ import './piling-wrapper.css';
 
 export default function Component() {
   const pilingInitHandler = useCallback((element) => {
-    if (element!==null){
-      const piling = createPilingInterface(element);
-      return () => piling.destroy(); // Free resources
-    }
+    if (!element) return;
+    const piling = createPilingInterface(element);
+    return () => piling.destroy(); // Free resources
   }, []);
 
-  return (
-    <div
-      className="piling-wrapper"
-      ref={pilingInitHandler}
-    />
-  );
+  return <div className="piling-wrapper" ref={pilingInitHandler} />;
 }
 ```
 
 In `piling-wrapper.css` you specify the style of the piling-wrapper component
 ```css
-.piling-wrapper{
+.piling-wrapper {
   position: relative;
   width: 100%;
   height: 100%;
