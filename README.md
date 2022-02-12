@@ -12,19 +12,25 @@ It's very simple to use Piling.js within a React App. In your React component th
 
 ```JSX
 import createPilingInterface from './piling-interface.js';
+import './piling-wrapper.css';
 
 export default function Component() {
   const pilingInitHandler = useCallback((element) => {
-    const piling = createPilingExample(element);
+    if (!element) return;
+    const piling = createPilingInterface(element);
     return () => piling.destroy(); // Free resources
   }, []);
 
-  return (
-    <div
-      className="piling-wrapper"
-      ref={pilingInitHandler}
-    />
-  );
+  return <div className="piling-wrapper" ref={pilingInitHandler} />;
+}
+```
+
+In `piling-wrapper.css` you specify the style of the piling-wrapper component
+```css
+.piling-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 ```
 

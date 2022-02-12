@@ -5,6 +5,7 @@ import createPilingExample from './piling-example.js';
 
 export default function App() {
   const pilingInitHandler = useCallback((element) => {
+    if (!element) return;
     const piling = createPilingExample(element);
     return () => piling.destroy();
   }, []);
